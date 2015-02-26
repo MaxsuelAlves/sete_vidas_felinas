@@ -170,6 +170,7 @@
    color: #fff;
    background-color: #222;
 }
+
 .fa-trash {
    cursor: pointer;
 }
@@ -580,7 +581,7 @@ option {
 
 footer {
    float: left;
-
+   margin-top: 0;
    width:100%;
    height: 100px;
    clear: both;
@@ -737,10 +738,12 @@ form button {
    float: left;
    margin-left: 35%;
    margin-bottom: 10%;
+   line-height: 140%;
 }
 
 .dados-user strong {
    font-size: 1.2em;
+   color: #0bdae2;
 }
 
 .table-user {
@@ -1089,7 +1092,7 @@ form {
 @media (min-width: 940px) {
     .sete-branco {
    display: block;
-   width: 50px;
+   width: 55px;
    float: left;
    margin-bottom: 10px;
 }
@@ -1108,6 +1111,10 @@ form {
 
    .user-1 {
       margin-left: 50%;
+   }
+
+   .box-posts {
+      margin-top: 22%;
    }
 
 }
@@ -1721,7 +1728,7 @@ header {
 @media (min-width: 1600px) {
 
 .box-posts {
-   margin-top: 5%;
+   margin-top: 13%;
 }
 
    .container {
@@ -1771,5 +1778,8 @@ header {
    .buys-1 {
       margin-left: -5%;
    }
+
+
+   
 
 }
