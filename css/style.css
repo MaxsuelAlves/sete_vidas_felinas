@@ -1,0 +1,1775 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, 
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+   	margin: 0;
+   	padding: 0;
+   	border: 0;
+   	font-size: 100%;
+   	font: inherit;
+   	vertical-align: baseline;
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+   	display: block;
+   }
+   body {
+   	line-height: 1;
+   }
+   ol, ul {
+   	list-style: none;
+   }
+   blockquote, q {
+   	quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+   	content: '';
+   	content: none;
+   }
+   table {
+   	border-collapse: collapse;
+   	border-spacing: 0;
+   }
+
+   /*SITE*/
+
+::-moz-selection { /* Code for Firefox */
+    color: #000;
+    background:#0bdae2;
+}
+
+::selection {
+    color: #000; 
+    background: #0bdae2;
+}
+
+
+
+   * {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box;
+   }
+   html,
+   body {
+      height: 100%;
+      background-color: #fff;
+   }
+   .container {
+      width: 100%;
+      margin: 0 auto;
+      padding: 5px;
+   }
+   header {
+      width: 100%;
+      background: #222;
+      float: left;
+      padding: 10px 0;
+      font-family: 'Roboto Condensed', sans-serif;
+   }
+
+.sete-branco {
+   display:none;
+}
+
+.form-busca {
+   position: absolute;
+   margin: 0;
+   top: 60px;
+  left: 40px;
+   background-color: #222;
+   padding: 0;
+   padding: 6px 20px;
+   z-index: 9999;
+}
+
+.form-busca input {
+   width: 200px;
+   margin-top: 6px;
+}
+
+.btn-search {
+   padding: 0;
+   margin: 0;
+   background-color: transparent;
+   border: none;
+}
+
+.form-user label {
+   margin-left: 2%;
+}
+
+.form-user {
+   float: left;
+}
+
+.finalizar-payment {
+   float:left;
+   margin-left: 57%;
+   width: 190px;
+}
+
+.pagamento-escolha legend {
+   font-size: 1em;
+   width: 400px;
+   margin-bottom: 2%;
+   text-align: left;
+}
+
+.final-shop {
+   border: 1px solid #fff;
+   background-color: #222;
+   color: #fff;
+   padding: 30px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   font-size: 1.1em;
+   float: right;
+   margin-top: 4%;
+}
+   
+
+   .tabela {
+      margin-left: 30%;
+      text-align: center ;
+      width: 710px;
+      line-height: 150%;
+   }
+
+.tabela-margin {
+   margin-top: 5%;
+}
+
+   .tabela th,
+   .tabela td {
+      vertical-align: middle;
+      padding:10px 30px;
+      border: 1px solid #e3e3e3;
+      border-collapse: collapse;
+   }
+
+.tabela th {
+   color: #fff;
+   background-color: #222;
+}
+.fa-trash {
+   cursor: pointer;
+}
+.tabela-cor {
+   background: #c3c3c3;
+}
+.header-shop {
+   text-align: center;
+   margin-top: 100px;
+}
+
+.header-shop h1 {
+   font-size: 2em;
+   margin-bottom: 2%;
+}
+   /*CONTEUDO DO DESKTOP*/
+
+   .banner-inicial {
+      display:none;
+   }
+
+   .box-search {
+      display:none;
+   }
+
+   .box-search a {
+      color: #e7e7e7;
+      text-indent: none;
+      text-decoration: none;
+      padding:2%;
+   }
+
+   .box-shop {
+      display:none;
+   }
+   .box-search {
+      display: none;
+   }
+   .box-shop a {
+      color: #e7e7e7;
+      text-indent: none;
+      text-decoration: none;
+      padding:2%;
+   }
+
+   .copyright {
+      display: nonepost;
+   }
+
+   /*CONTEUDO DESK FIM*/
+
+   .box-menu {
+      width: 40%;
+      float: left;
+   }
+
+   .box-menu a {
+      color: #e7e7e7;
+      text-indent: none;
+      text-decoration: none;
+      padding:2%;
+   }
+
+   .box-menu a:hover {
+      color: #0bdae2;
+   }
+
+   .open {
+      text-decoration: none;
+      color: #fff;
+   }
+   .box-user {
+      width: 15%;
+      float: right;
+      text-align: right;
+   }
+
+   .box-user a {
+      color: #e7e7e7;
+   }
+
+   .box-user a:hover {
+      color: #0bdae2;
+   }
+
+   .logo {
+      margin-top: 2%;
+      margin-left: 30%;
+   }
+
+   /*conteudo*/
+   .conteudo {
+      width: 100%;
+      min-height: 100%;
+      height: auto;
+      float: left;
+      margin-bottom: 170px;
+      font-family: 'Roboto Condensed', sans-serif;
+   }
+   .box-posts {
+      width: 100%;
+   }
+   .post-blog {
+      clear: both;
+   }
+   .post {
+      padding: 0;
+      float:left;
+   }
+
+   .post a {
+     color: #fff;
+     text-decoration:none;
+     text-indent: none;
+     font-size: 1.3em;
+     margin-left: 1em;
+  }
+
+  .post li {
+   list-style: none;
+   height: auto;
+}
+.post figure {
+   position: relative;
+
+}
+.post figure img {
+   width: 100%;
+   margin-top: -1em;
+   height: auto;
+}
+.post figcaption h1 {
+   top: -1em;
+   z-index: 1;
+   position: absolute;
+   width: 100%;
+   height: 50px;
+   background: rgba(0, 0, 0, 0.5);
+}
+
+.banner {
+   font-size: 5em;
+   display: none;
+}
+
+.mais-posts {
+   margin-top: 2px;
+   margin-left: 35%;
+   color:#2b2b2a ;
+   border: 1px solid #000 100%;
+   padding: 2em;
+}
+
+.posts {
+   font-size: 0.5em;
+   float: right;
+   margin: 0px 0px 0px 4px;
+}
+
+/* ================= LOJA ======= */
+
+.loja-link {
+   width:100%;
+   position: relative;
+   z-index: 1;
+   margin-top: 2em;
+   margin-bottom: -1.1%;
+}
+
+.loja-descricao {
+   text-decoration: none;
+   text-indent: none;
+   color: #000;
+   float:right;
+   border: 1px solid #000;
+   font-size: 2em;
+   padding:1%;
+   position: absolute;
+   z-index: 2;
+   margin-top: -50%;
+   margin-left: 60%;
+}
+
+.produto {
+   width: 60%;
+   margin-left: 20%;
+   margin-top: 10%;
+   float:left;
+}
+
+.filtros p {
+   float:left;
+   font-size: 2em;
+   color: #000;
+   margin-left: 30%;
+   margin-top: 10%;
+}
+
+.filtros a {
+   float:left;
+   text-indent: none;
+   text-decoration: none;
+   border: 1px solid #000;
+   margin-left: 30%;
+   width: 100px;
+   padding: 0.4em;
+   color: #fff;
+   background-color: #222;
+   text-align: center;
+}
+
+/* CHECKBOX OCULTA */
+
+.size-all {
+   display:none;
+}
+
+.size {
+   display:none;
+}
+
+.filtro {
+   display: none;
+}
+
+.preco-produto {
+   float:left;
+   font-size: 1em;
+   line-height: 100%;
+   margin-left: 25%; 
+   margin-bottom: 2%;
+}
+
+.descricao-produto {
+   color: #7b7b7b;
+}
+
+hr {
+  clear:both;
+  color:#f3f3f3;
+  width: 100%;
+}
+
+.search a {
+   float:right;
+   color:#222;
+   text-decoration: none;
+   text-indent: none;
+}
+
+.foto-compra {
+   width: 50%;
+   margin: 2% 0% 0% 25%;
+}
+
+.comprar {
+   float:right;
+   border: 1px solid #fff;
+   background-color: #0bdae2;
+   padding:1%;
+   text-decoration: none;
+   text-indent: none;
+   color: white;
+   margin-left: 70%;
+}
+
+.compra-final {
+   float: right;
+   background-color: #000;
+   color: #fff;
+   padding: 2%;
+   text-decoration: none;
+}
+
+.texto-compra {
+   float:left;
+}
+
+.descricao {
+   float: left;
+   clear: both;
+   margin-top: 10%;
+}
+
+.escolhas {
+   float: left;
+   width: 60%;
+   margin-top: 10%;
+   display: block;
+   padding-bottom: 1%;
+}
+
+.quantidade{
+   margin-bottom: 8%;
+}
+
+.quantidade-box {
+   width:25%;
+}
+.descricao p {
+   color:#535352;
+}
+
+.detalhes {
+   float: left;
+   text-align: center;
+   font-size: 1.5em;
+   width: 100%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+/* ================= LOJA ======= */
+
+/*================ ARTIGO ==============*/
+
+.date {
+   color: #aeadad;
+}
+
+.titulo-artigo {
+   margin-top: 8%;
+   margin-left: 12%;
+   font-size: 2em;
+   font-family: 'Roboto Condensed';
+}
+
+.by-debora {
+   font-family: 'Roboto Condensed';
+   margin-left: 12%;
+}
+
+.data {
+   font-family: 'Roboto Condensed';
+   font-size: 2em;
+   float:right;
+   margin: -4% 10% 10% 10%;
+}
+
+.post-foto {
+   width: 100%;
+   padding: 2%;
+   margin-left: 2%;
+}
+
+.artigo {
+   color: #2e2e2e;
+   float:left;
+   font-size: 1em;
+   text-align: left;
+   font-weight: lighter;
+   width: 100%;
+   margin-left: 3%;
+}
+
+.artigo p {
+   margin-bottom: 1em;
+   margin-left: 1.2%;
+}
+
+.voltar {
+   color:#2e2e2e;
+   margin-left: 50%;
+   margin-bottom: 10%;
+}
+
+.voltar:hover {
+   color: #0bdae2;
+}
+
+.copyright {
+   display:none;
+}
+
+.logo {
+   display: block;
+}
+
+/* FORMULARIO */
+
+
+label {
+   display: inline-block;
+   font-size:0.9em;
+   font-weight: bold;
+   width: 90px;
+   float: left;
+}
+
+input, textarea {
+   display: inline-block;
+   width: 200px;
+}
+
+textarea {
+   height: 200px;
+}
+
+/* FORMULARIO */
+
+option {
+   padding: 4%;
+   border-bottom: 1px solid #e3e3e3;
+}
+
+
+/*================ ARTIGO ==============*/
+/*=================== FOOOTER ======*/
+
+footer {
+   float: left;
+
+   width:100%;
+   height: 100px;
+   clear: both;
+   margin-bottom: 0;
+   background-color: #222222;
+}
+/* remover tabela */
+
+
+.redes-sociais {
+   margin-left: 8%;
+}
+.redes-sociais a {
+   text-decoration: none;
+   text-indent: none;
+   display:inline;
+   color:white;
+   float:right;
+   padding: 2%;
+   color: #fff;
+}
+
+.redes-sociais a:hover {
+   color: #0bdae2;
+}
+
+.redes-sociais a:active {
+   color: #0bdae2;
+}
+
+.fa-facebook {
+   margin-right: 10%;
+}
+
+.teste {
+   margin-right: 14%;
+}
+/* CONTATO */
+
+.container {
+   width: 320px;
+}
+
+.sobre {
+   float:left;
+   width: 100%;
+   height: 0 auto;
+   background-color: #0bdae2;
+}
+
+.quem {
+   color: #fff;
+   font-size: 1.2em;
+   margin-top: 5%;
+   margin-bottom: 4%;
+   text-align: center;
+}
+
+.quem-sou {
+   color: #fff;
+   margin-left: 3%;
+   margin-bottom: 5%;
+}
+
+.debora-foto {
+   width: 50%;
+   margin-left: 27%;
+   margin-top: 5%;
+}
+
+
+form {
+   float:left;
+   margin-top: 5%;
+}
+
+.contact {
+   font-size: 1.5em;
+   margin-left: 35%;
+   margin-bottom: 10%;
+}
+
+form label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#4c4b4b;
+    font-weight:bold;
+    float:left;
+}
+
+form input {
+   background-color: #fafafa;
+   border: 1px solid #b0afaf;
+   padding: 2px;
+   margin-bottom: 4%;
+}
+
+form textarea {
+   width: 200px;
+   height: 100px;
+   background-color: #fafafa;
+   border: 1px solid #b0afaf;
+}
+
+form button {
+   border: 1px solid #fff;
+   background-color: #222;
+   padding: 4px;
+   color: #fff;
+   float: right;
+   margin-bottom: 10%;
+}
+
+.whatts {
+   text-align: center;
+   margin-left: 15%;
+   margin-bottom: 10%;
+}
+
+.botao-oculto {
+   float:left;
+   border: 1px solid #fff;
+   background-color: #000;
+   color: #fff;
+   padding: 8px;
+   margin-top: 2%;
+}
+
+.user, .buys {
+   text-decoration: none;
+   text-indent: none;
+   color: #000; 
+}
+
+.buys {
+   float:left;
+   display: inline-block;
+   width: 27%;
+   margin-left: 35%;
+   text-align: center;
+   margin-top: 5%;
+}
+
+
+.user-1{
+   display:block;
+   float: left;
+   margin-left: 32%;
+   text-align: center;
+}
+
+
+.dados-user {
+   float: left;
+   margin-left: 35%;
+   margin-bottom: 10%;
+}
+
+.dados-user strong {
+   font-size: 1.2em;
+}
+
+.table-user {
+   float:left;
+   margin-left: 5%;
+}
+
+
+
+
+.box-sacola h1 {
+   font-size: 2em;
+   margin-bottom: 2%;
+} 
+.foto-finalizar {
+   width: 50px;
+   margin-left: 25%;
+}
+
+.tabela button {
+   width: 70px;
+   color: #fff;
+   background-color: #000;
+   border: none;
+}
+
+
+
+.contato-form {
+   width: 300px;
+   margin-left: 40%;
+}
+
+.contato-form legend{
+ color: #07b5bc;
+}
+.contato-form textarea {
+   border-color: #0bdae2;
+}
+
+.contato-form label {
+     font-size: 0.9em;
+   margin-left: 2%;
+   margin-bottom: 5%;
+   color: #07b5bc;
+}
+
+.contato-form input{
+   border: none;
+   background-color: white;
+   border-bottom: 1px solid #0bdae2;
+   width: 200px;
+   margin-bottom: 10%;
+}
+
+
+
+.form-dados input{
+   border: none;
+   background-color: white;
+   border-bottom: 1px solid #0bdae2;
+   width: 200px;
+}
+
+.form-dados {
+   margin-left: 20%;
+}
+
+.form-dados label {
+   font-size: 0.9em;
+   margin-left: 2%;
+   margin-bottom: 5%;
+   color: #07b5bc;
+}
+
+.form-dados legend {
+   font-size: 1.5em;
+   padding: 10%;
+   margin-left: 25%;
+   color: #07b5bc;
+}
+
+.form-dados select {
+   margin-top: 3%;
+   margin-bottom: 10%;
+   width: 300px;
+   height: 30px;
+   background-color: #fff;
+   border: none;
+   background-color: white;
+   border-bottom: 1px solid #0bdae2;
+   width: 200px;
+      color: #07b5bc;
+}
+
+.form-dados label input select{
+   margin-top: 5%;
+
+}
+
+.form-dados button {
+   margin-top: 5%;
+   font-size: 1em;
+}
+
+#form-dados {
+   margin-top: -1%;
+}
+
+#form-dados legend{
+color: #07b5bc;
+}
+
+#form-dados label{
+   color: #089398;
+}
+
+#form-dados input {
+    border: none;
+   background-color: white;
+   border-bottom: 1px solid #0bdae2;
+   width: 200px;
+}
+
+
+.form-dados button {
+   float: left;
+   margin-left: 100px;
+}
+.filtros-form-1 {
+   float:left;
+   margin-top: 1%;
+   border: 1px solid #000;
+   display:inline-block;   
+   width: 200px;
+   padding: 5%;
+   background-color: #222;
+   color: #fff;
+   font-size: 1em;
+   margin-left: 17%;
+}
+
+.filtros-form-1 label {
+   margin-top: 4%;
+   margin-left: 24%;
+   font-size: 1em;
+   padding: 2%;
+}
+
+.filtros-1 {
+   font-size: 1.2em;
+}
+
+.filtros-form-1 select {
+   width: 60%;
+   padding: 4%;
+   margin-left: 25%;
+   border: none;
+
+}
+
+.final {
+   float: left;
+   margin-top: 30%;
+   margin-left: 32%;
+   font-size: 2em;
+}
+
+.fa-home {
+   margin-left: 40%;
+   margin-top: 10%;
+   color: #000;
+}
+
+.fa-home:hover {
+   color: #0bdae2;
+}
+/*=================== FOOOTER ======*/
+
+
+
+@media (min-width: 500px) {
+
+   .sete-branco {
+      display: none;
+   }
+
+   .form-busca {
+      left: 80px;
+   }
+
+   .logo {
+      display:none;
+   }
+
+  .loja-descricao {
+   margin-left: 40%;
+   margin-top: -40%;
+  }
+
+   .post li  {
+      width: 48%;
+      float: left;
+      margin-top: 0px;
+   }
+
+   .box-posts {
+      width:100%;
+   }
+
+   .copyright {
+      display:none;
+   }
+
+
+   .container {
+   width: 500px;
+}
+
+.sobre {
+   float:left;
+   width: 100%;
+   height: 0 auto;
+   background-color: #0bdae2;
+}
+
+.debora-foto {
+   width: 40%;
+   margin-top: 2%;
+   border: 2px solid #fff;
+   margin-left: 30%;
+}
+
+.quem {
+   margin-bottom: 2%;
+   font-size: 1.5em;
+   text-align: center;
+}
+
+.quem-sou {
+   font-size: 1em;
+      width: 80%;
+   color: #fff;
+   margin-top: 8%;
+   margin-left: 10%; 
+   margin-bottom: 5%;
+}
+
+.escolhas {
+   width: 100%;
+   float: left;
+}
+
+.foto-compra-1 {
+   width: 50%;
+   float:left;
+   display: block;
+}
+
+
+.post-foto {
+   width: 100%;
+   margin-left: 5%;
+}
+
+.artigo {
+   width: 100%;
+   margin-left: 5%;
+}
+
+form {
+   margin-left: 15%;
+}
+
+.whatts {
+   width: 70%;
+   float:left;
+   text-align: center;
+   margin-left: 18%;
+   margin-bottom: 10%;
+   font-size: 0.9em;
+}
+
+.user-1 {
+   margin-left: 35%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   font-size: 1.2em;
+}
+
+.buys-1 {
+   margin-top: 5%;
+   margin-bottom: 5%;
+   font-size: 1.2em;
+}
+
+.botao-oculto {
+   float: left;
+   padding: 2%;
+   text-align: center;
+   font-size: 0.8em;
+}
+
+.dados-user {
+   margin-left: 37%;
+}
+
+
+.filtros-form-1 {
+   width: 310px;
+   margin-bottom: 4%;
+}
+
+.redes-sociais {
+   margin-left: 15%;
+}
+
+
+.form-dados {
+   margin-left: 30%;
+}
+
+}
+
+
+@media (min-width: 700px) {
+
+   .sete-branco {
+      display: none;
+   }
+
+ .form-busca {
+      left: 270px;
+   }
+
+
+   .redes-sociais {
+      margin-left: 10%;
+   }
+
+   .form-dados {
+   margin-left: 40%;
+}
+}
+
+@media (min-width: 940px) {
+    .sete-branco {
+   display: block;
+   width: 50px;
+   float: left;
+   margin-bottom: 10px;
+}
+
+ .form-busca {
+      left: 590px;
+   }
+
+   .dados-user {
+      margin-left: 50%;
+   }
+
+   .buys-1 {
+      margin-left: 16%;
+   }
+
+   .user-1 {
+      margin-left: 50%;
+   }
+
+}
+
+@media (min-width: 940px) {
+
+ /* Conteudo do mobile escondido*/
+
+ .container {
+   width:940px;
+   clear:both;
+}
+
+.post li {
+   width: 32%;
+   display:block;
+}
+.banner {
+   display: block;
+}
+
+.logo {
+   display:none;
+}
+
+.mais-posts {
+   display:none;
+}
+
+.loja-descricao {
+   display:none;
+   margin-top: 500px;
+}
+
+.loja-link {
+   display: none;
+}
+
+.post figcaption h1 {
+
+}
+/* Conteudo do mobile escondido*/
+
+
+
+.menu {
+   margin-left: 60%;
+   width: 440px;
+   font-size: 20px;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu li {
+   width: 80px;
+   margin-top: 10px;
+   display: inline;
+   float: left;
+   padding: 2px;
+   margin-left: 20px;
+}
+
+/* ALTEREI ESSA PARTE */
+
+.banner-inicial {
+   display: block;
+   float: left;
+   width: 100%;
+   height: 100%;
+   background: url(../img/post.jpg);
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;  
+}
+
+header {
+   position: fixed;
+   z-index: 9999;
+}
+/* FIM ALTEREI ESSA PARTE */
+
+.box-posts {
+   padding: 2%;
+}
+
+
+.mais-posts {
+   display:block;
+   margin-left: 45%;
+}
+.post img {
+   float:left;
+   width: 100%;
+   display:inline-block;
+}
+
+
+.icons i {
+   margin-top: 10px;
+   width:25%;
+   display: inline;
+   float: right;
+   margin-left: 40%; 
+}
+
+.box-user {
+   width: 5%;
+   float: right;
+}
+
+.box-search a:hover {
+   color: #0bdae2;
+}
+
+.box-search {
+   display: inline;
+   width:11%;
+   float:right;
+}
+.link-search {
+   width: 50%;
+   float: right;
+}
+.form-search {
+   width: 50%;
+   float: left;
+}
+
+/* mexe aqui no search */
+.form-search input {
+   margin-top: -50px;
+   width: 145px;
+   margin-left: -70%;
+
+   transition: 0.3s;
+   -webkit-transition: 0.3s;
+   -moz-transition: 0.3s;
+}
+.box-shop a:hover {
+   color: #0bdae2;
+}
+
+.box-shop {
+   display: inline;
+   float:right;
+   width: 5%;
+   margin-right: 3%;
+}
+
+.loja-descricao-desk {
+   display: block;
+   background-color: #222222;
+   border:none;
+   font-family: 'Roboto Condensed';
+   font-size: 4em;
+   float:left;
+   margin: 20% 0% 40% 45%;
+   color: #ebebeb;
+   text-decoration: none;
+   padding: 40px 40px;
+}
+
+/* PAGINA POST */
+
+.titulo-artigo {
+   margin-top: 8%;
+   margin-left: 12%;
+   font-size: 2em;
+   font-family: 'Roboto Condensed';
+}
+
+.by-debora {
+   font-family: 'Roboto Condensed';
+   margin-left: 12%;
+}
+
+.data {
+   font-family: 'Roboto Condensed';
+   font-size: 2em;
+   float:right;
+   margin: -4% 10% 10% 10%;
+}
+
+/* LOJA */
+
+.grid {
+   padding: 20px 20px 100px 20px;
+   max-width: 1200px;
+   margin: 0 auto;
+   list-style: none;
+   text-align: center;
+}
+
+.grid li {
+   display:inline-block;
+   width: 320px;
+   padding: 10px;
+   text-align: left;
+   position: relative;
+}
+
+.grid figure {
+   margin:0;
+   position:relative;
+}
+
+.grid figure img {
+   max-width: 100%;
+   display:block;
+   position: relative;
+}
+
+.grid figcaption {
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 20px;
+   background: #222;
+   color: #0bdae2;
+   opacity: 0.9;
+}
+
+.grid figcaption h5 {
+   margin: 0;
+   padding: 0;
+   color: #fff;
+}
+
+
+.grid figcaption span:before {
+   content: 'by ';
+}
+
+.grid figcaption a {
+   text-align: center;
+   padding: 5px 10px;
+   border-radius: 2px;
+   display: inline-block;
+   background: #0bdae2;
+   color: #fff;
+}
+
+.mais-posts {
+   float:left;
+}
+
+.filtros {
+   display: block;
+   width: 600px;
+   float:left;
+   margin-top: 5%;
+   margin-left: 30%;
+   margin-bottom: 5%;
+}
+
+.filtros a {
+   background: #222;
+   padding: 20px;
+}
+
+.filtros {
+   margin-left: 35%;
+}
+
+/* ESTE CONTEUDO ESTA ESCONDIDO - TAMANHOS */
+.filtro {
+   font-size: 1.3em;
+   color: #fff;
+   background-color: #222;
+   font-family: 'Roboto Condensed';
+   padding: 5%;
+   margin-bottom: 10%;
+   float: left;
+   display: none;
+}
+
+.size-all {
+   display:none;
+}
+
+
+/* ESTE CONTEUDO ESTA ESCONDIDO - TAMANHOS */
+
+/* PRODUTO COMPRA */
+
+.montao {
+   float:right;
+   margin-top: 10%;
+   width: 43%;
+   margin-left: 2%;
+}
+
+.descricao {
+   float: left;
+   display: block;
+   width: 400px;
+   border: solid 1px #000;
+   background-color: #000;
+   opacity: 0.9;
+   color: #fff;
+   font-size: 1em;
+   margin-bottom: 1%;
+   padding: 2%;
+}
+
+.descricao p {
+   color: white;
+}
+.foto-compra {
+   width: 37%;
+   margin-top: 10%;
+   margin-left: 8%;
+   float:left;
+}
+
+.texto-compra {
+   width: 50%;
+    float: left; 
+   font-size: 1.4em;
+   padding-top: 1%; 
+}
+
+.comprar {
+     float: left;
+}
+
+.detalhes {
+   float: left;
+   font-size: 3em;
+   display:block;
+   margin-top: 10%;
+}
+
+.foto-compra-1 {
+   width: 50%;
+   float:left;
+   display: block;
+}
+
+hr {
+   display:none;
+}
+
+
+
+/* CONTATO */
+
+.body {
+   width: 100%;
+}
+
+.container {
+   width: 940px;
+}
+
+.sobre {
+   float:left;
+   width: 100%;
+   height: 0 auto;
+   background-color: #0bdae2;
+   position: relative;
+}
+
+
+.quem {
+   font-size: 2em;
+   margin-bottom: 4%;
+   text-align: center;
+}
+
+.debora-foto {
+   float:left;
+   width: 20%;
+   margin-top: 10%;
+   margin-left: 20%;
+   border: 2px solid #fff;
+}
+
+
+.quem-sou {
+   width: 28%;
+   color: #fff;
+   float: right;
+   font-size: 1.1em;
+   line-height: 130%;
+   text-align: left;
+   margin-right: 13%;
+   margin-top: 15%;
+   margin-bottom: 10%;
+}
+
+.formulario {
+   display: block;
+   width: 100%;
+   float: left;
+   margin-top: 5%;
+   margin-left: 40%;
+   margin-bottom: 10%;
+}
+
+.meu-form {
+   padding: 2%;
+}
+
+.contato-titulo {
+   font-size: 2.2em;
+   margin-bottom: 2%;
+}
+
+.info-contato {
+   padding: 2%;
+}
+
+form {
+   margin-left: 30%;
+   margin-top: 10%;
+}
+
+.contact {
+   font-size: 2.3em;
+}
+
+form label {
+   font-size: 1.2em;
+   width: 120px;
+}
+
+form input {
+   padding: 2%;
+   width: 300px;
+}
+
+form textarea {
+   width: 300px;
+   height: 200px;
+}
+
+form button {
+   width: 100px;
+   font-size: 1.1em;
+   padding: 5px;
+   margin-top: 2%;
+}
+
+.filtros-form-1 {
+   margin-left: 10%;
+
+.whatts {
+   float:left;
+   display: block;
+   margin-bottom: 5%;
+   width: 100%;
+   text-align: center;
+   margin-left: 10%;
+}
+
+.user-1 {
+   float:left;
+   margin-left: 40%;
+   margin-top: 10%;
+   font-size: 1.7em;
+}
+
+.buys-1 {
+   float: left;
+   margin-left: 10%;
+   margin-top: 10%;
+   font-size: 1.7em;
+}
+
+.botao-oculto {
+   margin-left: 10%;
+}
+
+/* FOOTER */
+ .sete-branco:hover {
+   background-color: #e3e3e3;
+ }
+.redes-sociais {
+   display: inline-block;
+   width:300px;
+   height: 70px;
+   margin-left: 40%;
+}
+
+.copyright {
+   display: inline-block;
+   color:#000;
+   margin-left: 30%;
+   height: 20px;
+   padding:1%;
+}
+/* FIM FOOTER */
+
+}
+@media (min-width: 1060px) {
+   
+   .form-busca {
+      left: 60%;
+   }
+
+   .container {
+      width: 1060px;
+   }
+
+   .whatts {
+      text-align: center;
+      margin-left: 18;
+   }
+
+   .mais-posts {
+      margin-left: 42%;
+   }
+
+   .posts {
+      margin-top:4%;
+   }
+
+   .montao {
+      width: 38%;
+      margin-right: 10%;
+   }
+}
+
+
+@media (min-width: 1250px) {
+   .container {
+      width: 1250px;
+   }
+
+   .montao {
+      width: 33%;
+   }
+
+   .foto-compra {
+      width:30%;
+      margin-left: 15%;
+   }
+
+.whatts {
+   width: 70%;
+   margin-left: 12%;
+}
+
+}
+
+
+@media (min-width: 1050px) {
+   .container {
+      width: 1050px;
+   }
+
+.box-shop {
+   margin-right: 3%;
+}
+
+header {
+   width: 100%;
+}
+
+.menu {
+   margin-left: 45%;
+}
+
+
+}
+
+@media (min-width: 1200px) {
+   .container {
+      width: 1200px;
+   }
+
+.box-shop {
+   margin-right: 5%;
+}
+
+
+.box-menu {
+   margin-left: 10%;
+}
+
+
+.mais-posts {
+      margin-left: 42%;
+   }
+
+   .posts {
+      margin-top:4%;
+   }
+
+
+  .montao {
+      width: 33.5%;
+   }
+
+   .dados-user {
+      margin-left: 45%;
+   }
+
+   .user-1 {
+      margin-left: 46%;
+   }
+
+   .buys-1 {
+      margin-left: 5%;
+   }
+
+}
+
+
+@media (min-width: 1600px) {
+
+.box-posts {
+   margin-top: 5%;
+}
+
+   .container {
+      width: 1600px;
+   }
+
+.box-shop {
+   margin-right: 10%;
+}
+
+
+.box-menu {
+   margin-left: 16%;
+}
+
+   .montao {
+      width: 25%;
+      margin-right: 20%;
+   }
+
+   .foto-compra {
+      width:20%;
+      margin-left: 20%;
+   }
+
+   .foto-compra-1 {
+      width: 40%;
+      margin-left: 5%;
+   }
+
+   .mais-posts {
+      margin-left: 42%;
+   }
+
+   .posts {
+      margin-top:4%;
+   }
+
+.dados-user {
+      margin-left: 40%;
+   }
+
+   .user-1 {
+      margin-left: 42%;
+   }
+
+   .buys-1 {
+      margin-left: -5%;
+   }
+
+}
