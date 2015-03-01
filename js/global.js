@@ -88,6 +88,19 @@ $(document).ready(function(){
 		$('.form-busca').fadeOut();
 		$('.search').toggleClass('on-search');
 	});
+
+	// pedidos anteriores botao
+	$('.tabela').hide();
+	$('.pedidos_anteriores').on('click', function(e){
+		e.preventDefault();
+		if($('.tabela').hasClass('active')) {
+			$('.tabela').fadeIn();
+		}
+		else {
+			$('.tabela').fadeOut();
+		}
+		$('.tabela').toggleClass('active');
+	});
 });
 
 
